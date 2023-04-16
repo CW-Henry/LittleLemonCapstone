@@ -40,11 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'LittleLemonAPI',
     'restaurant',
     'djoser',
     'rest_framework.authtoken'
 ]
+# 'LittleLemonAPI',
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'LittleLemon',
         'USER': 'root',
-        'PASSWORD': '[your-password]',
+        'PASSWORD': '[your_password_here]',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'OPTIONS': {
